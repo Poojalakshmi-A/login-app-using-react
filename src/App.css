@@ -7,27 +7,30 @@
   gap: 20px;
   height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #f8f9fd;
+  background-color: #51ceea;
 }
 
 input[type="text"],
 input[type="password"] {
   height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(69, 121, 203);
+  border-radius: 0.3rem;
+
 }
 
 input[type="submit"] {
   margin-top: 10px;
   cursor: pointer;
   font-size: 15px;
-  background: #01d28e;
+  background: #0d819b;
   border: 1px solid #01d28e;
-  color: #fff;
+  color:white;
   padding: 10px 20px;
+  border-radius: 0.3rem;
 }
 
 input[type="submit"]:hover {
-  background: #6cf0c2;
+  background: #6c9af0;
 }
 
 .button-container {
@@ -38,7 +41,8 @@ input[type="submit"]:hover {
 .login-form {
   background-color: white;
   padding: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .list-container {
@@ -60,4 +64,16 @@ input[type="submit"]:hover {
   flex-direction: column;
   gap: 8px;
   margin: 10px;
+}
+.credits{
+  display: flex;
+  width:100%;
+  padding: 1rem;
+  background-color: rgb(244, 247, 249);
+  color: darkgray;
+  position: fixed;
+  bottom:0;
+  text-align: center;
+  font-size: small;
+  justify-content: center;
 }
